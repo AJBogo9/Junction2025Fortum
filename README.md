@@ -1,4 +1,4 @@
-# How to run the models
+# How to run the model
 
 ## Prepare Training data
 
@@ -8,9 +8,9 @@
    - Run `transform.ipynb` with jupyter notebook vscode extension
    - This creates training data  inside `data/`.
 
-## Testing the models
+## Testing the model
 
-For testing, we remove the **last 2 days** from the dataset and keep them as a **reference set**.  
+For testing the short term model, we remove the **last 2 days** from the dataset and keep them as a **reference set**.  
 The notebook `validation_baseline.ipynb`:
 
 - Builds the organiser’s baseline model.
@@ -23,7 +23,7 @@ The notebook `validation_baseline.ipynb`:
    - This generates the organiser’s baseline forecasts and the 2-day reference sets for testing.
    - Run `evaluation.ipynb` for getting the FVA for the model's predictions
 
-2. **Run our short-term model**
+2. **Run short-term model**
 
    - Go to the `short-term-forecast/` folder.
    - Run the notebooks in the order indicated by their numbering / titles.
