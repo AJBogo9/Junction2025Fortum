@@ -224,5 +224,5 @@ def predict_interval_all_groups(
 if __name__ == "__main__":
     # Example: forecast immediately after last training observation
     predict_interval_all_groups(
-        start_timestamp="2024-09-01T00:00:00.000Z",
-        output_csv="../data/second/preds_2024-09-01-00_48h.csv")
+        start_timestamp="2024-10-01T00:00:00.000Z",
+        output_csv="../data/preds_2024-10-01T00:00:00.000Z_48h.csv")
