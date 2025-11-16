@@ -206,6 +206,11 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+
 # Model predictions and other data
 *.csv
 *.xlsx
+*model_12m.py
+*model.ipynb
+*feature_engineer_2.0.py
+*.pkl
